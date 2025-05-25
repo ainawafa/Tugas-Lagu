@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+  />
+    <title>Lagu Favorit</title>
+   
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="header">
+        <h1>🎵 Spotify</h1>
+        <p>Discover and enjoy your favorite music</p>
+    </div>
+
+    <div class="container">
+        <h2 class="section-title">Popular Songs</h2>
+        <div id="songs-container" class="songs-grid"></div>
+
+        <div class="now-playing">
+            <h2>🎧 Now Playing</h2>
+            <div class="current-song">
+
+                <div class="current-info">
+                </div>
+            </div>
+            <div class="progress-container">
+             <div class="progress"></div>
+</div>
+
+            <div class="time-display">
+                <span class="current-time">0:00</span>
+                <span class="total-time">0:00</span>
+            </div>
+            <div class="controls">
+                <button class="control-btn">
+                    <i class="ph ph-skip-back"></i>
+                </button>
+                <button class="control-btn play">
+                    <i class="ph ph-pause"></i>
+                </button>
+                <button class="control-btn">
+                    <i class="ph ph-skip-forward"></i>
+                </button>
+                <button class="control-btn">
+                    <i class="ph ph-heart"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+  <audio id="audio-player" src="" preload="auto"></audio>
+ <script src="script.js"></script>
+</body>
+</html>
